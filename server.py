@@ -21,7 +21,7 @@ if __name__ == "__main__":
     #server will run forever. Ctrl-C to quit server
         server.serve_forever()
 
-        HOST, PORT = "217.0.0.1", 9000
+        HOST, PORT = "127.0.0.1", 9000
         data = " ".join(sys.argv[1:])
 
         #create socket
